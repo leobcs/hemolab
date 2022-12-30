@@ -40,17 +40,19 @@
     }
 
     .slide__title {
-        font-size: 75px;
+        font-size: 60px;
         line-height: 1.1;
         margin-bottom: 25px;
+        // color: $color-dark;
     }
 
     .slide__desc {
-        color: #283b6a;
+        color: $color-secondary;
+        // color: $color-dark;
         font-size: 17px;
         line-height: 1.5;
         font-weight: 700;
-        max-width: 550px;
+        max-width: 410px;
         margin-bottom: 30px;
     }
 

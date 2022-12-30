@@ -11,7 +11,7 @@
 
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&family=Roboto:wght@400;700&display=swap">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
+  <script src="https://kit.fontawesome.com/a7845bf90e.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="assets/css/libraries.css">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -31,11 +31,12 @@
           <a class="navbar-brand" href="index.html">
             <img src="assets/images/logo/logo-header.png" class="logo-dark" alt="logo">
           </a>
+          <div class="separador"></div>
           <button class="navbar-toggler" type="button">
             <span class="menu-lines"><span></span></span>
           </button>
           <div class="collapse navbar-collapse" id="mainNavigation">
-            <ul class="navbar-nav mr-auto ml-auto">
+            <ul class="navbar-nav mr-auto">
               <li class="nav__item">
                 <a href="index.html" class="nav__item-link active">Home</a>
               </li><!-- /.nav-item -->
@@ -54,11 +55,19 @@
               <li class="nav__item">
                 <a href="quem-somos.html" class="nav__item-link">Quem Somos</a>
               </li><!-- /.nav-item -->
-
             </ul><!-- /.navbar-nav -->
             <button class="close-mobile-menu d-block d-lg-none"><i class="fas fa-times"></i></button>
+            <div class="col-xl-2 lista_contato">
+              <a href="tel:558436165000" class="contato_topo mb-2">
+                <i class="fa-solid fa-phone"></i><span>(84) 3616-5000</span>
+              </a>
+              <a href="https://wa.me/558436165001" target="_blank" class="contato_topo">
+                <i class="fa-brands fa-whatsapp"></i> <span>(84) 3616-5001</span>
+              </a>
+            </div>
           </div><!-- /.navbar-collapse -->
-          <div class="d-none d-xl-flex align-items-center position-relative ml-0">
+          <div class="separador" id="separador_resultado"></div>
+          <div class="d-xl-flex align-items-center position-relative ml-0 mr-1">
             <a href="https://www.pulsesaude.com.br/" class="btn btn__primary btn__rounded ml-30">
               <span>Resultados</span>
             </a>
@@ -77,15 +86,15 @@
           <div class="bg-img"><img src="assets/images/sliders/2.jpg" alt="slide img"></div>
           <div class="container">
             <div class="row align-items-center">
-              <div class="col-sm-12 col-md-12 col-lg-12 col-xl-7">
+              <div class="col-sm-12 col-md-12 col-lg-12 col-xl-5">
                 <div class="slide__content">
-                  <h2 class="slide__title">Baixe o novo app do Hemolab</h2>
+                  <h2 class="slide__title">Baixe o novo app Hemolab</h2>
                   <p class="slide__desc">
                     Acesso os resultados dos exames, encontre a unidade mais próxima e muito mais.
                   </p>
                   <div class="d-flex flex-wrap align-items-center">
                     <a href="https://play.google.com/store/apps/details?id=br.com.nd.hemolab.app"
-                      class="btn btn__primary btn__rounded mr-30">
+                      class="btn btn__primary btn__rounded mr-30 btn__slider">
                       <span>Acessar agora</span>
                     </a>
                   </div>
@@ -104,7 +113,7 @@
                   <p class="slide__desc">The health and well-being of our patients and their health care team will
                     always be our priority, so we follow the best practices for cleanliness.</p>
                   <div class="d-flex flex-wrap align-items-center">
-                    <a href="servicos.html" class="btn btn__primary btn__rounded mr-30">
+                    <a href="servicos.html" class="btn btn__primary btn__rounded mr-30 btn__slider">
                       <span>Saiba mais</span>
                     </a>
                   </div>
@@ -117,7 +126,7 @@
     </section><!-- /.slider -->
 
     <!-- ========================
-      About Layout 1
+      O Hemolab
     =========================== -->
     <section class="about-layout1 pb-0">
       <div class="container">
@@ -162,10 +171,10 @@
     </section>
 
     <!-- ======================
-    Features Layout 1
+    Serviços
     ========================= -->
     <section class="features-layout1 pt-130 pb-50">
-      <div class="bg-img"><img src="assets/images/backgrounds/1.jpg" alt="background"></div>
+      <div class="bg-img"><img src="assets/images/backgrounds/9.png" alt="background"></div>
       <div class="container">
         <div class="row mb-40">
           <div class="col-sm-12 col-md-12 col-lg-5">
@@ -277,7 +286,7 @@
     </section><!-- /.Features Layout 1 -->
 
     <!-- ========================
-        Services Layout 2
+        Unidades
     =========================== -->
     <section class="services-layout2 services-carousel bg-overlay bg-overlay-primary pt-130">
       <div class="bg-img"><img src="assets/images/banners/1.jpg" alt="background"></div>
@@ -302,15 +311,20 @@
                     <img src="assets/images/services/1.jpg" alt="img" loading="lazy">
                   </div><!-- /.service__img -->
                   <div class="service__content">
-                    <h4 class="service__title">Hemolab - Itapetinga</h4>
-                    <a href="tel:01061245741" class="phone__number">
-                      <i class="icon-phone"></i> <span>01061245741</span>
-                    </a>
-                    <a href="tel:01061245741" class="phone__number">
-                      <i class="icon-phone"></i> <span>01061245741</span>
-                    </a>
-                    <div>
-                      <i class="icon-phone"></i> <span>Segunda à Sexta das 6:00h às 12:00h</span> <span>Sábado das 6:30h
+                    <h4 class="service__title">Itapetinga</h4>
+                    <div class="ml-0">
+                      <i class="fa-solid fa-location-dot fa-xl"></i>
+                      <span>Avenida Itapetinga, 920 - Potengi</span>
+                    </div>
+                    <div class="ml-0">
+                      <i class="fa-solid fa-phone fa-xl"></i>
+                      <span class="">(84) 3616-5000</span>
+                    </div>
+                    <div class="info-unidade ml-0">
+                      <i class="fa-regular fa-clock fa-xl"></i>
+                      <span>Segunda à Sexta das 6:00h às 12:00h</span>
+                      <span>Sábado
+                        das 6:30h
                         as 10:30h</span>
                     </div>
                   </div><!-- /.service__content -->
@@ -349,58 +363,6 @@
                     </a>
                   </div><!-- /.service__content -->
                 </div><!-- /.service-item -->
-                <!-- service item #4 -->
-                <div class="service-item">
-                  <div class="service__img">
-                    <img src="assets/images/services/4.jpg" alt="img" loading="lazy">
-                  </div><!-- /.service__img -->
-                  <div class="service__content">
-                    <h4 class="service__title">Laboratory Analysis</h4>
-                    <p class="service__desc">Analyzing the radon or radon progeny concentrations with passive devices,
-                      or
-                      the
-                      act of calibrating radon or radon progeny measurement devices.
-                    </p>
-                    <a href="departments-single.html" class="btn btn__secondary btn__outlined btn__rounded">
-                      <span>Read More</span>
-                      <i class="icon-arrow-right"></i>
-                    </a>
-                  </div><!-- /.service__content -->
-                </div><!-- /.service-item -->
-                <!-- service item #5 -->
-                <div class="service-item">
-                  <div class="service__img">
-                    <img src="assets/images/services/5.jpg" alt="img" loading="lazy">
-                  </div><!-- /.service__img -->
-                  <div class="service__content">
-                    <h4 class="service__title">Pediatric Clinic</h4>
-                    <p class="service__desc">Pediatric providers see patients from birth into early adulthood to make
-                      sure
-                      children achieve stay healthy. Our care includes preventive health checkups.
-                    </p>
-                    <a href="departments-single.html" class="btn btn__secondary btn__outlined btn__rounded">
-                      <span>Read More</span>
-                      <i class="icon-arrow-right"></i>
-                    </a>
-                  </div><!-- /.service__content -->
-                </div><!-- /.service-item -->
-                <!-- service item #6 -->
-                <div class="service-item">
-                  <div class="service__img">
-                    <img src="assets/images/services/6.jpg" alt="img" loading="lazy">
-                  </div><!-- /.service__img -->
-                  <div class="service__content">
-                    <h4 class="service__title">Cardiac Clinic</h4>
-                    <p class="service__desc">For people requiring additional follow up, the Cardiac Clinic provides
-                      rapid
-                      access to professionals specialized in diagnosing and treating heart disease.
-                    </p>
-                    <a href="departments-single.html" class="btn btn__secondary btn__outlined btn__rounded">
-                      <span>Read More</span>
-                      <i class="icon-arrow-right"></i>
-                    </a>
-                  </div><!-- /.service__content -->
-                </div><!-- /.service-item -->
               </div><!-- /.carousel -->
             </div><!-- /.carousel-container -->
           </div><!-- /.col-12 -->
@@ -425,8 +387,8 @@
           <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3">
             <div class="heading text-center mb-40">
               <h3 class="heading__title">Certificados</h3>
-              <p class="heading__desc">Our administration and support staff all have exceptional people skills and
-                trained to assist you with all medical enquiries.
+              <p class="heading__desc">Somos o único laboratório do Rio Grande do Norte certificado pelo Sistema
+                Nacional de Acreditação da Sociedade Brasileira de Análises Clínicas.
               </p>
             </div><!-- /.heading -->
           </div><!-- /.col-lg-6 -->
@@ -435,24 +397,20 @@
           <div class="col-12">
             <div class="slick-carousel"
               data-slick='{"slidesToShow": 3, "slidesToScroll": 1, "autoplay": true, "arrows": false, "dots": false, "responsive": [ {"breakpoint": 992, "settings": {"slidesToShow": 2}}, {"breakpoint": 767, "settings": {"slidesToShow": 1}}, {"breakpoint": 480, "settings": {"slidesToShow": 1}}]}'>
-              <!-- Member #1 -->
+              <!-- Certificado 1 -->
               <div class="member">
                 <div class="member__img">
                   <img src="assets/images/team/1.jpg" alt="member img">
-                  <ul class="social-icons list-unstyled mb-0">
-                    <li><a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
-                    <li><a href="#" class="twitter"><i class="fab fa-twitter"></i></a></li>
-                    <li><a href="#" class="phone"><i class="fas fa-phone-alt"></i></a></li>
-                  </ul><!-- /.social-icons -->
-                </div><!-- /.member-img -->
+                </div><!-- /.cert-img -->
                 <div class="member__info">
-                  <h5 class="member__name"><a href="doctors-single-doctor1.html">Mike Dooley</a></h5>
-                  <p class="member__job">Cardiology Specialist</p>
-                  <p class="member__desc">Muldoone obtained his undergraduate degree in Biomedical Engineering at Tulane
-                    University prior to attending St George's University School of Medicine</p>
+                  <h5 class="member__name"><a href="certificados.html">Excelência Laboratorial (2020)</a></h5>
+                  <p class="member__job">Categoria Diamante</p>
+                  <p class="member__desc">Certificado concedido pelo Programa Nacional de Controle de Qualidade (PNCQ)
+                    aos laboratórios que tiveram 20 anos de excelente desempenho.
+                  </p>
                   <div class="mt-20 d-flex flex-wrap justify-content-between align-items-center">
-                    <a href="doctors-single-doctor1.html" class="btn btn__secondary btn__link btn__rounded">
-                      <span>Read More</span>
+                    <a href="certificados.html" class="btn btn__secondary btn__link btn__rounded">
+                      <span>Saiba mais</span>
                       <i class="icon-arrow-right"></i>
                     </a>
                   </div>
@@ -462,20 +420,15 @@
               <div class="member">
                 <div class="member__img">
                   <img src="assets/images/team/2.jpg" alt="member img">
-                  <ul class="social-icons list-unstyled mb-0">
-                    <li><a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
-                    <li><a href="#" class="twitter"><i class="fab fa-twitter"></i></a></li>
-                    <li><a href="#" class="phone"><i class="fas fa-phone-alt"></i></a></li>
-                  </ul><!-- /.social-icons -->
                 </div><!-- /.member-img -->
                 <div class="member__info">
-                  <h5 class="member__name"><a href="doctors-single-doctor1.html">Dermatologists</a></h5>
-                  <p class="member__job">Cardiology Specialist</p>
-                  <p class="member__desc">Brian specializes in treating skin, hair, nail, and mucous membrane. He also
-                    address cosmetic issues, helping to revitalize the appearance of the skin</p>
+                  <h5 class="member__name"><a href="certificados.html">Excelência Laboratorial (2021)</a></h5>
+                  <p class="member__job">Categoria Diamante</p>
+                  <p class="member__desc">Certificado concedido pelo Programa Nacional de Controle de Qualidade (PNCQ)
+                    aos laboratórios que tiveram 20 anos de excelente desempenho.</p>
                   <div class="mt-20 d-flex flex-wrap justify-content-between align-items-center">
-                    <a href="doctors-single-doctor1.html" class="btn btn__secondary btn__link btn__rounded">
-                      <span>Read More</span>
+                    <a href="certificados.html" class="btn btn__secondary btn__link btn__rounded">
+                      <span>Saiba mais</span>
                       <i class="icon-arrow-right"></i>
                     </a>
                   </div>
@@ -485,90 +438,15 @@
               <div class="member">
                 <div class="member__img">
                   <img src="assets/images/team/3.jpg" alt="member img">
-                  <ul class="social-icons list-unstyled mb-0">
-                    <li><a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
-                    <li><a href="#" class="twitter"><i class="fab fa-twitter"></i></a></li>
-                    <li><a href="#" class="phone"><i class="fas fa-phone-alt"></i></a></li>
-                  </ul><!-- /.social-icons -->
                 </div><!-- /.member-img -->
                 <div class="member__info">
-                  <h5 class="member__name"><a href="doctors-single-doctor1.html">Maria Andaloro</a></h5>
-                  <p class="member__job">Pediatrician</p>
-                  <p class="member__desc">Andaloro graduated from medical school and completed 3 years residency program
-                    in pediatrics. She passed rigorous exams by the American Board of Pediatrics.</p>
+                  <h5 class="member__name"><a href="certificados.html">Excelência Laboratorial (2022)</a></h5>
+                  <p class="member__job">Categoria Diamante</p>
+                  <p class="member__desc">Certificado concedido pelo Programa Nacional de Controle de Qualidade (PNCQ)
+                    aos laboratórios que tiveram 20 anos de excelente desempenho.</p>
                   <div class="mt-20 d-flex flex-wrap justify-content-between align-items-center">
-                    <a href="doctors-single-doctor1.html" class="btn btn__secondary btn__link btn__rounded">
-                      <span>Read More</span>
-                      <i class="icon-arrow-right"></i>
-                    </a>
-                  </div>
-                </div><!-- /.member-info -->
-              </div><!-- /.member -->
-              <!-- Member #4 -->
-              <div class="member">
-                <div class="member__img">
-                  <img src="assets/images/team/4.jpg" alt="member img">
-                  <ul class="social-icons list-unstyled mb-0">
-                    <li><a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
-                    <li><a href="#" class="twitter"><i class="fab fa-twitter"></i></a></li>
-                    <li><a href="#" class="phone"><i class="fas fa-phone-alt"></i></a></li>
-                  </ul><!-- /.social-icons -->
-                </div><!-- /.member-img -->
-                <div class="member__info">
-                  <h5 class="member__name"><a href="doctors-single-doctor1.html">Dupree Black</a></h5>
-                  <p class="member__job">Urologist</p>
-                  <p class="member__desc">Black diagnose and treat diseases of the urinary tract in both men and women.
-                    He
-                    also diagnose and treat anything involving the reproductive tract in men.</p>
-                  <div class="mt-20 d-flex flex-wrap justify-content-between align-items-center">
-                    <a href="doctors-single-doctor1.html" class="btn btn__secondary btn__link btn__rounded">
-                      <span>Read More</span>
-                      <i class="icon-arrow-right"></i>
-                    </a>
-                  </div>
-                </div><!-- /.member-info -->
-              </div><!-- /.member -->
-              <!-- Member #5 -->
-              <div class="member">
-                <div class="member__img">
-                  <img src="assets/images/team/5.jpg" alt="member img">
-                  <ul class="social-icons list-unstyled mb-0">
-                    <li><a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
-                    <li><a href="#" class="twitter"><i class="fab fa-twitter"></i></a></li>
-                    <li><a href="#" class="phone"><i class="fas fa-phone-alt"></i></a></li>
-                  </ul><!-- /.social-icons -->
-                </div><!-- /.member-img -->
-                <div class="member__info">
-                  <h5 class="member__name"><a href="doctors-single-doctor1.html">Markus skar</a></h5>
-                  <p class="member__job">Laboratory</p>
-                  <p class="member__desc">Skar play a very important role in your health care. People working in the
-                    clinical laboratory are responsible for conducting tests that provide crucial information.</p>
-                  <div class="mt-20 d-flex flex-wrap justify-content-between align-items-center">
-                    <a href="doctors-single-doctor1.html" class="btn btn__secondary btn__link btn__rounded">
-                      <span>Read More</span>
-                      <i class="icon-arrow-right"></i>
-                    </a>
-                  </div>
-                </div><!-- /.member-info -->
-              </div><!-- /.member -->
-              <!-- Member #6 -->
-              <div class="member">
-                <div class="member__img">
-                  <img src="assets/images/team/6.jpg" alt="member img">
-                  <ul class="social-icons list-unstyled mb-0">
-                    <li><a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
-                    <li><a href="#" class="twitter"><i class="fab fa-twitter"></i></a></li>
-                    <li><a href="#" class="phone"><i class="fas fa-phone-alt"></i></a></li>
-                  </ul><!-- /.social-icons -->
-                </div><!-- /.member-img -->
-                <div class="member__info">
-                  <h5 class="member__name"><a href="doctors-single-doctor1.html">Kiano Barker</a></h5>
-                  <p class="member__job">Pathologist </p>
-                  <p class="member__desc">Barker help care for patients every day by providing their doctors with the
-                    information needed to ensure appropriate care. He also valuable resources for other physicians.</p>
-                  <div class="mt-20 d-flex flex-wrap justify-content-between align-items-center">
-                    <a href="doctors-single-doctor1.html" class="btn btn__secondary btn__link btn__rounded">
-                      <span>Read More</span>
+                    <a href="certificados.html" class="btn btn__secondary btn__link btn__rounded">
+                      <span>Saiba mais</span>
                       <i class="icon-arrow-right"></i>
                     </a>
                   </div>
@@ -666,7 +544,7 @@
     </section><!-- /.testimonials layout 1 -->
 
     <!-- ========================
-    gallery
+    Convênios
     =========================== -->
     <section class="gallery pt-90 pb-90">
       <div class="container">
@@ -711,24 +589,26 @@
     ========================== -->
     <footer class="footer">
       <div class="footer-primary">
-        <div class="container">
-          <div class="row">
+        <div class="container itens-footer1">
+          <div class="row ml-3 mb-40">
             <div class="row">
               <div class="navbar-brand">
                 <img src="assets/images/logo/logo-footer.png" alt="logo" class="mb-5">
               </div><!-- /.footer-widget__content -->
             </div>
           </div><!-- /.row -->
-          <div class="row">
-            <p>O Hemolab dispõe de serviços de diagnose nas mais diversas áreas como biologia molecular, citogenética,
-              teste de paternidade, exames de DNA, sexagem fetal, morfologia de medula óssea, painéis exemplo.</p>
+          <div class="row ml-0 col-8">
+            <div class="descricao-footer">
+              <p>O Hemolab dispõe de serviços de diagnose nas mais diversas áreas como biologia molecular, citogenética,
+                teste de paternidade, exames de DNA, sexagem fetal, morfologia de medula óssea, painéis exemplo.</p>
+            </div>
           </div>
-          <div class="row">
+          <div class="row mt-40 ml-0">
             <div class="d-flex align-items-center">
-              <ul class="social-icons list-unstyled mb-0">
+              <ul class="social-icons list-unstyled">
                 <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                 <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
               </ul><!-- /.social-icons -->
             </div><!-- /.row -->
           </div><!-- /.footer-widget__content -->
@@ -742,9 +622,9 @@
               <a class="fz-14 color-primary" href="https://www.lartsdesign.com.br">lartsdesign.com.br</a>
             </div><!-- /.col-lg-6 -->
             <div class="col-sm-12 col-md-6 col-lg-6">
-              <nav>
+              <nav class="cookies-privacidade">
                 <ul class="list-unstyled footer__copyright-links d-flex flex-wrap justify-content-end mb-0">
-                  <li><a href="#">Cookies</a></li>
+                  <li class="mr-50"><a href="#">Cookies</a></li>
                   <li><a href="#">Políticas de Privacidade</a></li>
                 </ul>
               </nav>

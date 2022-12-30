@@ -2,13 +2,12 @@
    Buttons
 ---------------------*/
 .btn {
-    text-transform: capitalize;
     position: relative;
-    z-index: 1;
+    z-index: 1; 
     font-size: 15px;
     font-weight: 700;
     min-width: 170px;
-    height: 60px;
+    height: 50px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -307,6 +306,10 @@
 .btn__block {
     width: 100%;
 }
+
+// .btn__slider{
+//     background-color: $color-dark;
+// }
 
 .btn__icon {
     display: -ms-inline-flexbox;
