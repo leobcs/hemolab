@@ -171,20 +171,7 @@
     }
 }
 
-@media(min-width:1500px) {
-    .services-carousel {
-        .carousel-container {
-            margin-right: -250px;
-        }
-    }
-}
-
 @media(min-width:1200px) {
-    .services-carousel {
-        .carousel-container {
-            margin-right: -170px;
-        }
-
         .slick-arrow {
             top: -90px;
 
@@ -206,7 +193,6 @@
             white-space: normal;
         }
     }
-}
 
 /* Mobile Phones & tablets and Small Screens */
 @media (max-width:992px) {

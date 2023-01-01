@@ -135,19 +135,19 @@ $(function () {
       srcAction: "iframe_src",
     },
   });
-  $(".popup-gallery-item").magnificPopup({
-    type: "image",
-    tLoading: "Loading image #%curr%...",
-    mainClass: "mfp-img-mobile",
-    gallery: {
-      enabled: true,
-      navigateByImgClick: true,
-      preload: [0, 1],
-    },
-    image: {
-      tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
-    },
-  });
+  // $(".popup-gallery-item").magnificPopup({
+  //   type: "image",
+  //   tLoading: "Loading image #%curr%...",
+  //   mainClass: "mfp-img-mobile",
+  //   gallery: {
+  //     enabled: false,
+  //     navigateByImgClick: true,
+  //     preload: [0, 1],
+  //   },
+  //   image: {
+  //     tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+  //   },
+  // });
 
   /*==========  NiceSelect Plugin  ==========*/
   $("select").niceSelect();

@@ -5899,136 +5899,15 @@ input[type=radio] {
   color: #00989E;
 }
 
-/* line 87, D:/Leo Sobral Sites/Clientes/Hemolab/Desenvolvimento/Site/hemolab/assets/scss/module/_testimonial.scss */
-.testimonials-layout2 .slick-dots,
-.testimonials-layout3 .slick-dots {
-  display: none !important;
-}
-
-/* line 91, D:/Leo Sobral Sites/Clientes/Hemolab/Desenvolvimento/Site/hemolab/assets/scss/module/_testimonial.scss */
-.testimonials-layout2 .slider-nav,
-.testimonials-layout3 .slider-nav {
-  max-width: 550px;
-}
-
-/* line 95, D:/Leo Sobral Sites/Clientes/Hemolab/Desenvolvimento/Site/hemolab/assets/scss/module/_testimonial.scss */
-.testimonials-layout2 .testimonial__meta,
-.testimonials-layout3 .testimonial__meta {
-  padding-top: 10px;
-  display: flex;
-  align-items: center;
-}
-
-/* line 100, D:/Leo Sobral Sites/Clientes/Hemolab/Desenvolvimento/Site/hemolab/assets/scss/module/_testimonial.scss */
-.testimonials-layout2 .testimonial__meta .testimonial__thmb,
-.testimonials-layout3 .testimonial__meta .testimonial__thmb {
-  position: relative;
-  width: 65px !important;
-  height: 65px;
-  padding: 6px;
-  margin-bottom: 0;
-  margin-right: 15px;
-}
-
-/* line 108, D:/Leo Sobral Sites/Clientes/Hemolab/Desenvolvimento/Site/hemolab/assets/scss/module/_testimonial.scss */
-.testimonials-layout2 .testimonial__meta .testimonial__thmb:before,
-.testimonials-layout3 .testimonial__meta .testimonial__thmb:before {
-  font-family: icomoon;
-  content: "\e95c";
-  position: absolute;
-  top: -5px;
-  left: -5px;
-  font-size: 12px;
-  opacity: 0;
-  width: 30px;
-  height: 30px;
-  line-height: 30px;
-  border-radius: 50%;
-  text-align: center;
-  color: #00989E;
-  background-color: #ffffff;
-  -webkit-transition: all 0.4s ease;
-  -moz-transition: all 0.4s ease;
-  -ms-transition: all 0.4s ease;
-  -o-transition: all 0.4s ease;
-  transition: all 0.4s ease;
-}
-
-/* line 128, D:/Leo Sobral Sites/Clientes/Hemolab/Desenvolvimento/Site/hemolab/assets/scss/module/_testimonial.scss */
-.testimonials-layout2 .testimonial__meta.slick-current .testimonial__thmb:before,
-.testimonials-layout3 .testimonial__meta.slick-current .testimonial__thmb:before {
-  opacity: 1;
-}
-
-/* line 135, D:/Leo Sobral Sites/Clientes/Hemolab/Desenvolvimento/Site/hemolab/assets/scss/module/_testimonial.scss */
-.testimonials-layout3 {
-  padding-bottom: 290px;
-}
-
-/* line 138, D:/Leo Sobral Sites/Clientes/Hemolab/Desenvolvimento/Site/hemolab/assets/scss/module/_testimonial.scss */
-.testimonials-layout3 + .contact-layout2 {
-  margin-top: -240px;
-}
-
-/* line 142, D:/Leo Sobral Sites/Clientes/Hemolab/Desenvolvimento/Site/hemolab/assets/scss/module/_testimonial.scss */
-.testimonials-layout3 .testimonial__title,
-.testimonials-layout3 .testimonial__meta-title {
-  color: #ffffff;
-}
-
-/* line 147, D:/Leo Sobral Sites/Clientes/Hemolab/Desenvolvimento/Site/hemolab/assets/scss/module/_testimonial.scss */
-.testimonials-layout3 .testimonial__meta-desc {
-  color: #848e9f;
-}
-
-/* line 151, D:/Leo Sobral Sites/Clientes/Hemolab/Desenvolvimento/Site/hemolab/assets/scss/module/_testimonial.scss */
-.testimonials-layout3 .testimonial__meta.slick-current .testimonial__thmb {
-  background-color: #213360;
-}
-
-/* line 156, D:/Leo Sobral Sites/Clientes/Hemolab/Desenvolvimento/Site/hemolab/assets/scss/module/_testimonial.scss */
-.testimonials__rating {
-  position: relative;
-  max-width: 300px;
-  padding: 20px 0px 20px 30px;
-}
-
-/* line 161, D:/Leo Sobral Sites/Clientes/Hemolab/Desenvolvimento/Site/hemolab/assets/scss/module/_testimonial.scss */
-.testimonials__rating:before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: -10px;
-  width: 143px;
-  height: 95px;
-  background-image: url(../images/icons/text-shape.png);
-}
-
-/* line 171, D:/Leo Sobral Sites/Clientes/Hemolab/Desenvolvimento/Site/hemolab/assets/scss/module/_testimonial.scss */
-.testimonials__rating .total__rate {
-  font-family: "Quicksand", sans-serif;
-  font-size: 38px;
-  font-weight: 700;
-  color: #00989E;
-  margin-right: 10px;
-}
-
-/* line 179, D:/Leo Sobral Sites/Clientes/Hemolab/Desenvolvimento/Site/hemolab/assets/scss/module/_testimonial.scss */
-.testimonials__rating .overall__rate {
-  font-weight: 700;
-  color: #213360;
-  border-bottom: 2px solid #213360;
-}
-
 @media (min-width: 1300px) {
-  /* line 187, D:/Leo Sobral Sites/Clientes/Hemolab/Desenvolvimento/Site/hemolab/assets/scss/module/_testimonial.scss */
+  /* line 116, D:/Leo Sobral Sites/Clientes/Hemolab/Desenvolvimento/Site/hemolab/assets/scss/module/_testimonial.scss */
   .testimonials-layout1 {
     margin: 0 50px;
   }
 }
 
 @media (max-width: 992px) {
-  /* line 193, D:/Leo Sobral Sites/Clientes/Hemolab/Desenvolvimento/Site/hemolab/assets/scss/module/_testimonial.scss */
+  /* line 122, D:/Leo Sobral Sites/Clientes/Hemolab/Desenvolvimento/Site/hemolab/assets/scss/module/_testimonial.scss */
   .testimonials-layout1 .testimonials-wrapper:before {
     top: -90px;
     font-size: 40px;
@@ -6037,28 +5916,13 @@ input[type=radio] {
 
 /* Mobile Phones and tablets */
 @media (max-width: 992px) {
-  /* line 201, D:/Leo Sobral Sites/Clientes/Hemolab/Desenvolvimento/Site/hemolab/assets/scss/module/_testimonial.scss */
+  /* line 130, D:/Leo Sobral Sites/Clientes/Hemolab/Desenvolvimento/Site/hemolab/assets/scss/module/_testimonial.scss */
   .testimonial__title {
     font-size: 15px;
   }
-  /* line 205, D:/Leo Sobral Sites/Clientes/Hemolab/Desenvolvimento/Site/hemolab/assets/scss/module/_testimonial.scss */
+  /* line 134, D:/Leo Sobral Sites/Clientes/Hemolab/Desenvolvimento/Site/hemolab/assets/scss/module/_testimonial.scss */
   .testimonial__meta-title {
     font-size: 13px;
-  }
-  /* line 212, D:/Leo Sobral Sites/Clientes/Hemolab/Desenvolvimento/Site/hemolab/assets/scss/module/_testimonial.scss */
-  .testimonials-layout2 .testimonial__meta .testimonial__thmb {
-    position: relative;
-    width: 40px !important;
-    height: 40px;
-    padding: 3px;
-    margin-right: 8px;
-  }
-  /* line 219, D:/Leo Sobral Sites/Clientes/Hemolab/Desenvolvimento/Site/hemolab/assets/scss/module/_testimonial.scss */
-  .testimonials-layout2 .testimonial__meta .testimonial__thmb:before {
-    font-size: 9px;
-    width: 20px;
-    height: 20px;
-    line-height: 20px;
   }
 }
 
@@ -8800,36 +8664,50 @@ textarea.form-control {
 .gallery .slick-list {
   margin: 0;
   overflow: hidden;
-  border-radius: 12px;
 }
 
-/* line 11, D:/Leo Sobral Sites/Clientes/Hemolab/Desenvolvimento/Site/hemolab/assets/scss/module/_gallery.scss */
+/* line 10, D:/Leo Sobral Sites/Clientes/Hemolab/Desenvolvimento/Site/hemolab/assets/scss/module/_gallery.scss */
+.gallery img {
+  max-width: 263px;
+  height: 91px;
+  border-radius: 12px;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 18, D:/Leo Sobral Sites/Clientes/Hemolab/Desenvolvimento/Site/hemolab/assets/scss/module/_gallery.scss */
+.gallery .img-convenio {
+  display: flex;
+  justify-content: center;
+}
+
+/* line 23, D:/Leo Sobral Sites/Clientes/Hemolab/Desenvolvimento/Site/hemolab/assets/scss/module/_gallery.scss */
 .gallery .slick-slide {
   margin: 0;
 }
 
-/* line 16, D:/Leo Sobral Sites/Clientes/Hemolab/Desenvolvimento/Site/hemolab/assets/scss/module/_gallery.scss */
+/* line 28, D:/Leo Sobral Sites/Clientes/Hemolab/Desenvolvimento/Site/hemolab/assets/scss/module/_gallery.scss */
 .gallery .slick-arrow.slick-next {
   right: -50px;
 }
 
-/* line 20, D:/Leo Sobral Sites/Clientes/Hemolab/Desenvolvimento/Site/hemolab/assets/scss/module/_gallery.scss */
+/* line 32, D:/Leo Sobral Sites/Clientes/Hemolab/Desenvolvimento/Site/hemolab/assets/scss/module/_gallery.scss */
 .gallery .slick-arrow.slick-prev {
   left: -50px;
 }
 
-/* line 27, D:/Leo Sobral Sites/Clientes/Hemolab/Desenvolvimento/Site/hemolab/assets/scss/module/_gallery.scss */
+/* line 39, D:/Leo Sobral Sites/Clientes/Hemolab/Desenvolvimento/Site/hemolab/assets/scss/module/_gallery.scss */
 .gallery-layout2 .gallery-img {
   position: relative;
   margin-bottom: 30px;
 }
 
-/* line 31, D:/Leo Sobral Sites/Clientes/Hemolab/Desenvolvimento/Site/hemolab/assets/scss/module/_gallery.scss */
+/* line 43, D:/Leo Sobral Sites/Clientes/Hemolab/Desenvolvimento/Site/hemolab/assets/scss/module/_gallery.scss */
 .gallery-layout2 .gallery-img img {
   border-radius: 10px;
 }
 
-/* line 35, D:/Leo Sobral Sites/Clientes/Hemolab/Desenvolvimento/Site/hemolab/assets/scss/module/_gallery.scss */
+/* line 47, D:/Leo Sobral Sites/Clientes/Hemolab/Desenvolvimento/Site/hemolab/assets/scss/module/_gallery.scss */
 .gallery-layout2 .gallery-img .popup-gallery-item {
   position: absolute;
   top: 50%;
@@ -8856,17 +8734,17 @@ textarea.form-control {
   transform: translate(-50%, -50%);
 }
 
-/* line 52, D:/Leo Sobral Sites/Clientes/Hemolab/Desenvolvimento/Site/hemolab/assets/scss/module/_gallery.scss */
+/* line 64, D:/Leo Sobral Sites/Clientes/Hemolab/Desenvolvimento/Site/hemolab/assets/scss/module/_gallery.scss */
 .gallery-layout2 .gallery-img .popup-gallery-item:hover {
   box-shadow: 0 0 0 11px rgba(0, 0, 0, 0.15);
 }
 
 @media (min-width: 320px) and (max-width: 575px) {
-  /* line 63, D:/Leo Sobral Sites/Clientes/Hemolab/Desenvolvimento/Site/hemolab/assets/scss/module/_gallery.scss */
+  /* line 75, D:/Leo Sobral Sites/Clientes/Hemolab/Desenvolvimento/Site/hemolab/assets/scss/module/_gallery.scss */
   .gallery .slick-arrow.slick-next {
     right: 0;
   }
-  /* line 67, D:/Leo Sobral Sites/Clientes/Hemolab/Desenvolvimento/Site/hemolab/assets/scss/module/_gallery.scss */
+  /* line 79, D:/Leo Sobral Sites/Clientes/Hemolab/Desenvolvimento/Site/hemolab/assets/scss/module/_gallery.scss */
   .gallery .slick-arrow.slick-prev {
     left: 0;
   }
