@@ -1263,8 +1263,11 @@ h6 {
   border: 1px solid #ffffff;
 }
 .page-title-layout2 .pagetitle__icon img {
-  max-width: 65px;
-  margin-top: -10px;
+  max-width: 55px;
+  margin-top: -15px;
+}
+.page-title-layout2 #icon-exame {
+  margin-right: -6px;
 }
 .page-title-layout2 .scroll-down {
   display: inline-flex;

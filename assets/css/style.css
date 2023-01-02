@@ -1577,11 +1577,16 @@ h6 {
 
 /* line 85, D:/Leo Sobral Sites/Clientes/Hemolab/Desenvolvimento/Site/hemolab/assets/scss/layout/_pagetitle.scss */
 .page-title-layout2 .pagetitle__icon img {
-  max-width: 65px;
-  margin-top: -10px;
+  max-width: 55px;
+  margin-top: -15px;
 }
 
 /* line 91, D:/Leo Sobral Sites/Clientes/Hemolab/Desenvolvimento/Site/hemolab/assets/scss/layout/_pagetitle.scss */
+.page-title-layout2 #icon-exame {
+  margin-right: -6px;
+}
+
+/* line 95, D:/Leo Sobral Sites/Clientes/Hemolab/Desenvolvimento/Site/hemolab/assets/scss/layout/_pagetitle.scss */
 .page-title-layout2 .scroll-down {
   display: inline-flex;
   align-items: center;
@@ -1595,7 +1600,7 @@ h6 {
   box-shadow: 0px 5px 83px 0px rgba(9, 29, 62, 0.15);
 }
 
-/* line 104, D:/Leo Sobral Sites/Clientes/Hemolab/Desenvolvimento/Site/hemolab/assets/scss/layout/_pagetitle.scss */
+/* line 108, D:/Leo Sobral Sites/Clientes/Hemolab/Desenvolvimento/Site/hemolab/assets/scss/layout/_pagetitle.scss */
 .page-title-layout2.bg-overlay:before {
   opacity: 1;
   background-color: transparent;
@@ -1604,7 +1609,7 @@ h6 {
 
 /* Medium Size Devices */
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 113, D:/Leo Sobral Sites/Clientes/Hemolab/Desenvolvimento/Site/hemolab/assets/scss/layout/_pagetitle.scss */
+  /* line 117, D:/Leo Sobral Sites/Clientes/Hemolab/Desenvolvimento/Site/hemolab/assets/scss/layout/_pagetitle.scss */
   .page-title {
     padding-top: 70px;
     padding-bottom: 70px;
@@ -1613,28 +1618,28 @@ h6 {
 
 /* Mobile Phones and tablets */
 @media (min-width: 320px) and (max-width: 767px) {
-  /* line 121, D:/Leo Sobral Sites/Clientes/Hemolab/Desenvolvimento/Site/hemolab/assets/scss/layout/_pagetitle.scss */
+  /* line 125, D:/Leo Sobral Sites/Clientes/Hemolab/Desenvolvimento/Site/hemolab/assets/scss/layout/_pagetitle.scss */
   .page-title {
     padding-top: 50px;
     padding-bottom: 50px;
   }
-  /* line 125, D:/Leo Sobral Sites/Clientes/Hemolab/Desenvolvimento/Site/hemolab/assets/scss/layout/_pagetitle.scss */
+  /* line 129, D:/Leo Sobral Sites/Clientes/Hemolab/Desenvolvimento/Site/hemolab/assets/scss/layout/_pagetitle.scss */
   .page-title .pagetitle__subheading {
     font-size: 14px;
     margin-bottom: 10px;
   }
-  /* line 130, D:/Leo Sobral Sites/Clientes/Hemolab/Desenvolvimento/Site/hemolab/assets/scss/layout/_pagetitle.scss */
+  /* line 134, D:/Leo Sobral Sites/Clientes/Hemolab/Desenvolvimento/Site/hemolab/assets/scss/layout/_pagetitle.scss */
   .page-title .pagetitle__desc {
     font-size: 14px;
     margin-bottom: 10px;
   }
-  /* line 135, D:/Leo Sobral Sites/Clientes/Hemolab/Desenvolvimento/Site/hemolab/assets/scss/layout/_pagetitle.scss */
+  /* line 139, D:/Leo Sobral Sites/Clientes/Hemolab/Desenvolvimento/Site/hemolab/assets/scss/layout/_pagetitle.scss */
   .page-title .pagetitle__heading {
     font-size: 28px !important;
     line-height: 1.2;
     margin-bottom: 20px;
   }
-  /* line 141, D:/Leo Sobral Sites/Clientes/Hemolab/Desenvolvimento/Site/hemolab/assets/scss/layout/_pagetitle.scss */
+  /* line 145, D:/Leo Sobral Sites/Clientes/Hemolab/Desenvolvimento/Site/hemolab/assets/scss/layout/_pagetitle.scss */
   .page-title .btn {
     height: 40px;
     min-width: 140px;
