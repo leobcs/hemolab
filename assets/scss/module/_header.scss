@@ -238,11 +238,31 @@
     }
 }
 
-@media (max-width: 1367px) {
+.lista_contato{
+    max-width: 205px;
+}
+
+@media screen and (min-width: 1337px) and (max-width: 1400px) {
+    .contato_topo{
+        font-size: 13px !important;
+    }
     .lista_contato{
-        font-size: 12px;
+        max-width: 141px;
     }
 }
+
+@media (max-width: 1336px) {
+    .lista_contato{
+        display: none;
+    }
+}
+
+@media (max-width: 1600px) {
+    #separador_resultado{
+        display: none;
+    }
+}
+
 
 @media (min-width: 1200px) {
     .navbar .navbar-brand{
