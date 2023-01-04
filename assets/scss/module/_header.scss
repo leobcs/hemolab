@@ -5,6 +5,11 @@
     position: relative;
     z-index: 1000;
 }
+@media (max-width: 998px) {
+    .botao-resultados{
+        margin-right: 15px;
+    }
+}
 
 /* Navbar */
 .navbar {

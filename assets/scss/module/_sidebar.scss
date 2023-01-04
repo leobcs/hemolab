@@ -11,7 +11,10 @@
     overflow: hidden;
     border-radius: 10px;
     margin-bottom: 40px;
-    background-color: #def8f6;
+    background-color: $color-white;
+    border-color: #e6e8eb;
+    border-style: solid;
+    border-width: 2px;
 
     &:after {
         content: '';
@@ -251,7 +254,7 @@
     .widget__icon,
     .widget__title,
     .widget__desc {
-        color: $color-white;
+        color: $color-body;
     }
 
     .phone__number {
@@ -267,7 +270,6 @@
             border-radius: 50%;
             text-align: center;
             margin-right: 10px;
-            background-color: #3851a2;
         }
     }
 }

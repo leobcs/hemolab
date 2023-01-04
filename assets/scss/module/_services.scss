@@ -173,15 +173,15 @@
 
 @media(min-width:1200px) {
         .slick-arrow {
-            top: -90px;
+            // top: -90px;
 
             &.slick-prev {
                 left: 80%;
             }
 
-            &.slick-next {
-                left: 85%;
-            }
+            // &.slick-next {
+            //     left: 85%;
+            // }
         }
 
         .service-item .service__desc {
