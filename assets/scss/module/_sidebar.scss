@@ -27,7 +27,7 @@
     }
 
     &:last-child {
-        margin-bottom: 0;
+        margin-bottom: 50px;
     }
 
     .widget__title {
@@ -485,7 +485,7 @@
 /* Mobile Phones and tablets */
 @include xs-sm-screens {
     .widget {
-        padding: 15px;
+        padding: 30px;
 
         &:after {
             top: 15px;
