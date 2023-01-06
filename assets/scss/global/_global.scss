@@ -134,6 +134,12 @@ textarea {
     }
 }
 
+@media (min-width: 1024px) and (max-width: 1300px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
 @media (max-width: 991px) {
 
     html,

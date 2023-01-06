@@ -1,6 +1,27 @@
 /*-----------------------
     Services 
 --------------------------*/
+
+.fa-ul{
+    margin-left: 2rem !important;
+
+    li{
+        margin-bottom: 20px;
+        color: $color-dark;
+    }
+
+    li i{
+        color: $color-primary;
+        margin-right: 10px;
+    }
+}
+
+#btn-unidades{
+    z-index: 2;
+    color: $color-white;
+}
+
+
 .service-item {
     position: relative;
     overflow: hidden;
@@ -22,7 +43,7 @@
     }
 
     .service__content {
-        padding: 40px;
+        padding: 30px;
     }
 
     .service__icon {
@@ -101,7 +122,7 @@
 
         .service__title {
             font-size: 23px;
-            margin-bottom: 16px;
+            margin-bottom: 30px;
         }
 
         .service__img {
@@ -173,7 +194,7 @@
 
 @media(min-width:1200px) {
         .slick-arrow {
-            // top: -90px;
+            top: -90px;
 
             &.slick-prev {
                 left: 80%;

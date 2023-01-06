@@ -1,25 +1,21 @@
 /*--------------------------
-    Project Name: Medcity
+    Project Name: Hemolab
     Version: 1.0
-    Author: 7oorof
-    Relase Date: April 2021
+    Author: Leo Sobral
+    Relase Date: January 2023
 ---------------------------*/
 /*---------------------------
       Table of Contents
     --------------------
-    01- Pre Loading
-    02- Mobile Menu
-    03- Sticky Navbar
-    04- Scroll Top Button
-    05- Close Topbar
-    06- Set Background-img to section 
-    07- Add active class to accordions
-    08- Contact Form validation
-    09- Slick Carousel
-    10- Popup Video
-    11- Progress bars
-    12- NiceSelect Plugin
-    13- Range Slider
+    01- Mobile Menu
+    02- Sticky Navbar
+    03- Set Background-img to section 
+    04- Add active class to accordions
+    05- Slick Carousel
+    06- Popup Video
+    07- Range Slider
+    08- Seach Collapse
+
      
  ----------------------------*/
 
@@ -28,11 +24,6 @@ $(function () {
 
   // Global variables
   var $win = $(window);
-
-  /*==========  Pre Loading   ==========*/
-  setTimeout(function () {
-    $(".preloader").remove();
-  }, 2000);
 
   /*==========   Mobile Menu   ==========*/
   $(".navbar-toggler").on("click", function () {
@@ -135,43 +126,33 @@ $(function () {
       srcAction: "iframe_src",
     },
   });
-  // $(".popup-gallery-item").magnificPopup({
-  //   type: "image",
-  //   tLoading: "Loading image #%curr%...",
-  //   mainClass: "mfp-img-mobile",
-  //   gallery: {
-  //     enabled: false,
-  //     navigateByImgClick: true,
-  //     preload: [0, 1],
-  //   },
-  //   image: {
-  //     tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
-  //   },
-  // });
 
-  /*==========  NiceSelect Plugin  ==========*/
-  $("select").niceSelect();
+  /*==========   Search Collapse   ==========*/
 
-  /*==========   Range Slider  ==========*/
-  var $rangeSlider = $("#rangeSlider"),
-    $rangeSliderResult = $("#rangeSliderResult");
-  $rangeSlider.slider({
-    range: true,
-    min: 0,
-    max: 300,
-    values: [50, 200],
-    slide: function (event, ui) {
-      $rangeSliderResult.val("$" + ui.values[0] + " - $" + ui.values[1]);
+  const exames = [
+    {
+      id: 1,
+      name: "sexagem",
     },
-  });
-  $rangeSliderResult.val(
-    "$" +
-      $rangeSlider.slider("values", 0) +
-      " - $" +
-      $rangeSlider.slider("values", 1)
-  );
 
-  /*==========  image zoomsl Plugin  ==========*/
-  // [Zoom Effect on Hovering] Find it in shop-single-product.html
-  $(".zoomin").imagezoomsl();
+    {
+      id: 2,
+      name: "mayaro",
+    },
+
+    {
+      id: 3,
+      name: "sangue",
+    },
+
+    {
+      id: 4,
+      name: "dna",
+    },
+
+    {
+      id: 5,
+      name: "covid",
+    },
+  ];
 });
