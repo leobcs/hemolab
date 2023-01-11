@@ -48,20 +48,29 @@
         .menu-lines {
             display: inline-block;
 
-            &:before,
+            &:before{
+                content: '';
+                position: absolute;
+                left: 0;
+                width: 23px;
+                height: 2px;
+                display: inline-block;
+                background-color: $color-secondary;
+                @include prefix(transition, 0.3s ease, webkit moz ms o);
+            }
             &:after {
                 content: '';
                 position: absolute;
                 left: 0;
                 width: 23px;
-                height: 1px;
+                height: 2px;
                 display: inline-block;
                 background-color: $color-secondary;
                 @include prefix(transition, 0.3s ease, webkit moz ms o);
             }
 
             &:before {
-                top: 0;
+                top: -1px;
             }
 
             &:after {

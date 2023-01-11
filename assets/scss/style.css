@@ -2068,21 +2068,6 @@ input[type=radio] {
   font-weight: 700;
   margin-bottom: 9px;
 }
-.list-items li:before #local {
-  content: "\f3c5";
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-  position: absolute;
-  top: 0;
-  left: 0;
-  font-size: 9px;
-  width: 22px;
-  height: 22px;
-  line-height: 22px;
-  text-align: center;
-  border-radius: 50%;
-  color: #00989E;
-}
 .list-items li:last-of-type {
   margin-bottom: 0;
 }
@@ -2488,18 +2473,28 @@ input[type=radio] {
 .navbar .navbar-toggler .menu-lines {
   display: inline-block;
 }
-.navbar .navbar-toggler .menu-lines:before, .navbar .navbar-toggler .menu-lines:after {
+.navbar .navbar-toggler .menu-lines:before {
   content: "";
   position: absolute;
   left: 0;
   width: 23px;
-  height: 1px;
+  height: 2px;
+  display: inline-block;
+  background-color: #213360;
+  transition: 0.3s ease;
+}
+.navbar .navbar-toggler .menu-lines:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 23px;
+  height: 2px;
   display: inline-block;
   background-color: #213360;
   transition: 0.3s ease;
 }
 .navbar .navbar-toggler .menu-lines:before {
-  top: 0;
+  top: -1px;
 }
 .navbar .navbar-toggler .menu-lines:after {
   top: 12px;
@@ -3018,7 +3013,7 @@ input[type=radio] {
 @media (max-width: 600px) {
   .whats {
     position: fixed;
-    top: 84%;
+    top: 89%;
     left: 80%;
     z-index: 9999;
     background-color: #25d366;
@@ -3034,7 +3029,7 @@ input[type=radio] {
     font-size: 30px;
   }
 }
-@media (min-width: 601px) and (max-width: 992px) {
+@media (min-width: 601px) and (max-width: 1240px) {
   .whats {
     position: fixed;
     top: 91%;
@@ -3051,6 +3046,11 @@ input[type=radio] {
   .link-whats {
     color: #ffffff;
     font-size: 30px;
+  }
+}
+@media (min-width: 1300px) {
+  .whats {
+    display: none;
   }
 }
 .footer .footer-primary {
