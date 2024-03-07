@@ -2722,6 +2722,12 @@ h6 {
   .header .navbar-brand img {
     max-width: 120px;
   }
+  .header-layout2 {
+    height: 140px;
+  }
+  #compra {
+    margin-left: 232px;
+  }
 }
 /* Header Animation */
 @-webkit-keyframes translateHeader {
@@ -3380,24 +3386,20 @@ h6 {
 .video-banner {
   position: relative;
   z-index: 2;
-}
-
-.video-banner{
   position: relative;
   width: 100%;
-  padding-bottom: 56.25%; 
+  padding-bottom: 56.25%;
   height: 0;
 }
-.video-banner iframe{
+.video-banner img {
+  border-radius: 15px;
+}
+.video-banner iframe {
   position: absolute;
-  top:0;
+  top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-}
-
-.video-banner img {
-  border-radius: 15px;
 }
 .video-banner .video__btn {
   position: absolute;
